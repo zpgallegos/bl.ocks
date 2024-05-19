@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.sphere {
+  fill: darkblue;
+}
+
+.country:hover {
+  fill: red;
+}
+
+.country {
+  fill: lightgreen;
+  stroke: black;
+  stroke-width: 0.05;
+}

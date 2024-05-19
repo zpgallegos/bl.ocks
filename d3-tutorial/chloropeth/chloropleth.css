@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.sphere {
+  fill: darkblue;
+}
+
+.country:hover {
+  fill: red;
+}
+
+.country {
+  stroke: black;
+  stroke-width: 0.05;
+}
+
+.tick text {
+  font-size: .8em;
+  fill: black;
+}
+
+.tick circle {
+  stroke: black;
+  stroke-opacity: .5;
+}
+
+circle:hover {
+   cursor: pointer;
+}
+
+.is-selected {
+  fill: red;
+}
+
+.not-selected {
+  opacity: .3;
+}

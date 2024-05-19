@@ -1,0 +1,27 @@
+svg {
+  background-color: #EFECEA;
+}
+
+text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.y-axis-label, .x-axis-label {
+  fill: #635F5D;
+  font-size: 1.5em;
+}
+
+.line-path {
+  fill: none;
+  stroke:#E6842A;
+  stroke-width: 2;
+}
+
+circle {
+  fill: #635F5D
+}
+
+circle:hover {
+  fill: red;
+}

@@ -1,0 +1,7 @@
+- example of how to modify a force-directed plot
+- used this the election map animated plots
+https://observablehq.com/@d3/modifying-a-force-directed-graph
+
+https://www.toptal.com/d3-js/towards-reusable-d3-js-charts
+
+https://dev.to/lukejohnbrown/how-does-the-svg-viewbox-work-1cbh

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg width="960" height="600">
+        <!-- <rect stroke="black" width="500" height="100" x="100" y="100" fill="red"></rect>
+        <rect stroke="black" width="400" height="80" x="110" y="110" fill="green"></rect>
+        <circle r="5" cx="100" cy="100"></circle>
+        <circle r="5" cx="600" cy="100"></circle>
+        <circle r="5" cx="600" cy="200"></circle>
+        <circle r="5" cx="100" cy="200"></circle>
+        <ellipse cx="350" cy="150" rx="250" ry="50" fill="none" stroke="black"></ellipse>
+        <line x1="100" x2="600" y1="100" y2="200" stroke="black"></line>
+        <polygon points="50,50 100,50 50,100" fill="none" stroke="steelblue"></polygon>
+        <polyline points="50,100 100,100 100,50" fill="none" stroke="steelblue"></polyline> -->
+        <!-- <circle cx="100" cy="100" fill="red" r="5"></circle>
+        <circle cx="500" cy="100" fill="red" r="5"></circle>
+        <circle cx="300" cy="150" fill="red" r="5"></circle>
+        <circle cx="300" cy="50" fill="red" r="5"></circle>
+        <path d="M100,100 L500,100 Q300,150 100,100 M500,100 Q300,50 100,100" fill="none" stroke="steelblue" stroke-width="2"></path>
+        <path d="M100,200 l400,0 q-200,-50 -400,0" fill="none" stroke="green" stroke-width="2"></path>
+        <text x="300" y="150" text-anchor="middle">xyz</text> -->
+        
+        <defs>
+            <path d="M100,100 Q300,150 500,100" id="pth" fill="none" stroke="steelblue" stroke-width="2"></path>
+        </defs>
+        
+        <text>
+            <textpath xlink:href="#pth">
+                damn daddy you thicc thicc thicccc
+            </textpath>
+        </text>
+        <use xlink:href="#pth"></use>
+        <circle r="5" cx="100" cy="100"></circle>
+
+
+    </svg>
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+svg {
+  background-color: #EFECEA;
+}
+
+circle {
+  fill: #E6842A;
+  stroke: black;
+}
+
+text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.point-labels {
+  font-size: 1em;
+  fill: #635F5D;
+}
+
+.x-axis {
+  font-size: 2em;
+}
+
+.tick text {
+  fill: #635F5D;
+}
+
+.tick line {
+  stroke: #F5F3F2;
+}

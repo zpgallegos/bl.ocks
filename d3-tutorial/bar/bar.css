@@ -1,0 +1,31 @@
+svg {
+  background-color: #EFECEA;
+}
+
+rect {
+  fill: #E6842A;
+  stroke: black;
+}
+
+text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.bar-labels {
+  font-size: 1em;
+  fill: #635F5D;
+}
+
+.x-axis {
+  font-size: 2em;
+}
+
+.tick text {
+  fill: #635F5D;
+}
+
+.tick line {
+  stroke: #F5F3F2;
+  /* fill: #F5F3F2; */
+}

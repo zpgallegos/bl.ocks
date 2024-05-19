@@ -1,0 +1,22 @@
+body {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+}
+
+.link {
+  fill: none;
+  stroke: #03dac5;
+}
+
+text {
+  text-shadow: 
+  -1px -1px 3px white,
+  -1px 1px 3px white,
+  1px -1px 3px white,
+  1px 1px 3px white;
+  pointer-events: none;
+}

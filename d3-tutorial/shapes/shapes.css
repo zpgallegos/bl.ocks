@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+#svg1 {
+  background-color: purple;
+}
+
+#svg2 {
+  background-color: turquoise;
+}
+
+.lines {
+  stroke: black;
+  stroke-width: 5px;
+}
+
+.lines path {
+  stroke: darkgoldenrod;
+}
